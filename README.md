@@ -2,6 +2,8 @@
 
 This is a dockerized version of the Janus-Gateway https://github.com/meetecho/janus-gateway
 
+This fork adds support for the SIP plugin and the websockets server
+
 ## Basic Instructions
 
 ```shell
