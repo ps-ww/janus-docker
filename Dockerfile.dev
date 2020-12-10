@@ -11,7 +11,7 @@ ARG JANUS_WITH_DOCS="0"
 ARG JANUS_WITH_LUA="0"
 ARG JANUS_WITH_REST="1"
 ARG JANUS_WITH_DATACHANNELS="0"
-ARG JANUS_WITH_WEBSOCKETS="0"
+ARG JANUS_WITH_WEBSOCKETS="1"
 ARG JANUS_WITH_MQTT="0"
 ARG JANUS_WITH_PFUNIX="0"
 ARG JANUS_WITH_RABBITMQ="0"
@@ -28,7 +28,7 @@ ARG JANUS_BUILD_DEPS_DEV="\
     libjansson-dev \
     # libnice-dev \
     libssl-dev \
-    # libsofia-sip-ua-dev \
+    libsofia-sip-ua-dev \
     libglib2.0-dev \
     # libopus-dev \
     # libogg-dev \
